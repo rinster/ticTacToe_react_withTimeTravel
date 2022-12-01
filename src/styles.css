@@ -1,0 +1,34 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.game-board {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+#game-button {
+  font-size: 15px;
+  height: auto;
+  width: auto;
+  padding: 8px 7px;
+  border-radius: 25px;
+  background-color: blue;
+  color: white;
+}
+.board {
+  align-self: center;
+}
+
+button {
+  height: 100px;
+  width: 100px;
+  border-radius: 0px;
+  background-color: #fff;
+  font-size: 25px;
+  vertical-align: bottom;
+}
